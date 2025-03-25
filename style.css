@@ -155,11 +155,14 @@ header .fa-bars {
   display: none;
 }
 @media (max-width: 850px) {
+  
   .slider-wrapper{
     width: 90%;
+    
   }
  .slider.active{
     border-radius: 20px;
+    width:70%;
  }
    header .fa-bars{
     display: block;
@@ -211,6 +214,6 @@ header .fa-bars {
     .nav-active{
       top: 0px;
       right: 0;
-      left: 70px;
+      left: 60px;
     }
 }
